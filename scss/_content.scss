@@ -322,6 +322,9 @@
     @media #{$sm} {
         -webkit-clip-path: ellipse(160% 100% at 50% 0%);
     }
+    @media #{$lgx} {
+        padding: 0rem 0 8rem;
+    }
     img {
         border-radius: 50%;
         width: 150px;
@@ -482,7 +485,7 @@
                 color: #fff;
                 &:hover,
                 &:active {
-                  opacity: .7;
+                    opacity: .7;
                 }
             }
         }
@@ -542,6 +545,9 @@
     @media #{$lg} {
         -webkit-clip-path: ellipse(160% 100% at 50% 0%);
         padding: 12rem 0 5rem;
+    }
+    @media #{$lgx} {
+        padding: 17rem 0 5rem;
     }
     img {
         border-radius: 50%;
@@ -620,6 +626,10 @@
     @media #{$lg} {
         //padding: 15rem 0 30rem;
         padding: 12rem 0 13rem;
+    }
+     @media #{$lgx} {
+        //padding: 15rem 0 30rem;
+        padding: 7rem 0 13rem;
     }
     img {
         border-radius: 50%;

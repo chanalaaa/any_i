@@ -668,7 +668,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: red;
+  background-color: transparent;
   opacity: .5;
   z-index: 400;
 }
@@ -1007,6 +1007,11 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
     -webkit-clip-path: ellipse(160% 100% at 50% 0%);
   }
 }
+@media screen and (min-width: 1400px) {
+  .s3 {
+    padding: 0rem 0 8rem;
+  }
+}
 .s3 img {
   border-radius: 50%;
   width: 150px;
@@ -1286,6 +1291,11 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
     padding: 12rem 0 5rem;
   }
 }
+@media screen and (min-width: 1400px) {
+  .s5 {
+    padding: 17rem 0 5rem;
+  }
+}
 .s5 img {
   border-radius: 50%;
   width: 200px;
@@ -1378,6 +1388,11 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 @media screen and (min-width: 1000px) {
   .s6 {
     padding: 12rem 0 13rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .s6 {
+    padding: 7rem 0 13rem;
   }
 }
 .s6 img {
