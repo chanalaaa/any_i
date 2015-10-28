@@ -15,14 +15,14 @@
  
  .footdesk {
      display: none;
-     @media #{$md} {
+     @media #{$lg} {
          display: block;
      }
  }
  
  .footres {
      display: block;
-     @media #{$md} {
+     @media #{$lg} {
          display: none;
      }
  }
