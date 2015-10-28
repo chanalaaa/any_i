@@ -113,7 +113,7 @@
                  text-decoration: none;
                  display: block;
                  padding: 10px 25px 10px 45px;
-                 &:active{
+                 &:active {
                      background-color: #CC0000;
                      color: #fff;
                      outline: none;
@@ -159,7 +159,6 @@
      overflow-y: overlay;
      -webkit-overflow-scrolling: touch;
      -webkit-transform: translateZ(0);
-
  }
  
  .close {
@@ -188,6 +187,31 @@
                  }
              }
          }
+     }
+ }
+ 
+ .gohome {
+     position: absolute;
+     width: 50%;
+     height: 25%;
+     left: 0;
+     right: 0;
+     margin: auto;
+     background-color: red;
+     opacity: .5;
+     z-index: 400;
+     @media #{$md} {
+         width: 17%;
+         height: 10%;
+         margin-left: 35px;
+     }
+     @media #{$lg} {
+         width: 17%;
+         height: 25%;
+         margin-left: 60px;
+     }
+     @media #{$lgx} {
+         height: 19%;
      }
  }
  

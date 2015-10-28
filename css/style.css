@@ -661,6 +661,37 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   color: #999999;
 }
 
+.gohome {
+  position: absolute;
+  width: 50%;
+  height: 25%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: red;
+  opacity: .5;
+  z-index: 400;
+}
+@media screen and (min-width: 750px) {
+  .gohome {
+    width: 17%;
+    height: 10%;
+    margin-left: 35px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .gohome {
+    width: 17%;
+    height: 25%;
+    margin-left: 60px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .gohome {
+    height: 19%;
+  }
+}
+
 /*  Grid
 ================================================== */
 /* Shared
