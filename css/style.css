@@ -2182,9 +2182,32 @@ hr {
 .s7 .section-description {
   font-family: 'rsu_r';
   font-size: 18px;
-  width: 60%;
+  width: 80%;
   /* text-align: center; */
   margin: 0 auto;
+}
+@media screen and (min-width: 750px) {
+  .s7 .section-description {
+    width: 60%;
+  }
+}
+
+.footdesk {
+  display: none;
+}
+@media screen and (min-width: 750px) {
+  .footdesk {
+    display: block;
+  }
+}
+
+.footres {
+  display: block;
+}
+@media screen and (min-width: 750px) {
+  .footres {
+    display: none;
+  }
 }
 
 /* 

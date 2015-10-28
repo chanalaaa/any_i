@@ -4,12 +4,27 @@
      .section-description {
          font-family: 'rsu_r';
          font-size: 18px;
-         width: 60%;
+         width: 80%;
          /* text-align: center; */
          margin: 0 auto;
+         @media #{$md} {
+             width: 60%;
+         }
      }
  }
  
+ .footdesk {
+     display: none;
+     @media #{$md} {
+         display: block;
+     }
+ }
  
+ .footres {
+     display: block;
+     @media #{$md} {
+         display: none;
+     }
+ }
  
  // End Footer //////////////////////////////////
