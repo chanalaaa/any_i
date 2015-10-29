@@ -468,6 +468,13 @@
         clip-path: url(../#clip_path-sub) !important;
         -webkit-clip-path: ellipse(120% 100% at 50% 0%) !important;
     }
+
+    /*
+     .owl-stage-outer {
+        clip-path: url(../#clip_path-sub) !important;
+        -webkit-clip-path: ellipse(120% 100% at 50% 0%) !important;
+    }
+    */
     .owl-theme .owl-nav [class*='owl-'] {
         color: $f_red;
         &:hover,
