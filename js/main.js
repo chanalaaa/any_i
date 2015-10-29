@@ -47,11 +47,12 @@ $(document).ready(function() {
         });
     }
     /*End Fullpage  ***********************/
+    //Detect iOS version
     ver = iOSversion();
+    if (ver[0] < 8) {
+        $('html').addClass('ios7');
+    }
 
-if (ver[0] <= 8) {
-    $('html').addClass('ios7');
-}
 }); /*End Onload  ***********************/
 
 /* Nav ***********************/
