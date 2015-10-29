@@ -142,9 +142,10 @@
     /* owl-carousel s1 *******************************/
     .owl-dots {
         position: relative;
-        margin-top: -43px;
+        margin-top: -37px;
         @media #{$md} {
             margin-top: -170px;
+            margin-top: -43px;
         }
         @media #{$lg} {
             position: absolute;

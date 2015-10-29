@@ -798,11 +798,12 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 }
 .s1 .owl-dots {
   position: relative;
-  margin-top: -43px;
+  margin-top: -37px;
 }
 @media screen and (min-width: 750px) {
   .s1 .owl-dots {
     margin-top: -170px;
+    margin-top: -43px;
   }
 }
 @media screen and (min-width: 1000px) {
