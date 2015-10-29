@@ -49,6 +49,7 @@
                 <a href="advisor.php">Read more</a>
             </div>
         </div>
+        
     </div>
     <img src="images/footer/footer-bg.png" class="end-bg">
 </div>
