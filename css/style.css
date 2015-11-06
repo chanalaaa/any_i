@@ -457,11 +457,13 @@ h1 {
   }
 }
 
-.nav-desk {
+.nav-desk,
+.nav-desk-scroll {
   display: none;
 }
 @media screen and (min-width: 1081px) {
-  .nav-desk {
+  .nav-desk,
+  .nav-desk-scroll {
     display: block;
   }
 }
@@ -695,9 +697,16 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 .nav-desk-scroll {
   position: fixed;
   width: 100%;
-  background-color: gray;
+  background-color: rgba(255, 255, 255, 0.95);
   height: 78px;
-  z-index: 300;
+  z-index: 9;
+  display: none;
+}
+.nav-desk-scroll nav.main-nav-desk a {
+  color: #57585A;
+}
+.nav-desk-scroll nav.main-nav-desk a:active, .nav-desk-scroll nav.main-nav-desk a:hover {
+  color: #9F0208;
 }
 
 /*  Grid
