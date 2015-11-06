@@ -7,6 +7,10 @@ $md: "screen and (min-width: 750px)";
 //$tl: "screen and (min-width: 768px)";
 $lg: "screen and (min-width: 1081px)";
 $lgx: "screen and (min-width: 1400px)";
+$md_l :"only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)";
 
 /*
 $sm: "screen and (min-width: 375px)";

@@ -772,7 +772,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 }
 
 .value-heading {
-  margin-bottom: .3rem;
+  margin-bottom: 1.5rem;
 }
 
 .value-description {
@@ -1666,6 +1666,11 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
     margin-top: 45%;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .s2.headcon .s2-info {
+    margin-top: 0;
+  }
+}
 @media screen and (min-width: 1081px) {
   .s2.headcon .s2-info {
     margin-top: 12%;
@@ -1750,8 +1755,14 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 }
 @media screen and (min-width: 750px) {
   .s2.contact {
-    padding: 13rem 0 20rem;
+    padding: 0rem 0 20rem;
     margin-top: -60px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .s2.contact {
+    display: flex;
+    float: left;
   }
 }
 @media screen and (min-width: 1081px) {
@@ -1767,7 +1778,12 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 }
 @media screen and (min-width: 750px) {
   .s2.contact .conts-info {
-    margin-top: 70%;
+    margin-top: 60%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .s2.contact .conts-info {
+    margin-top: 30%;
   }
 }
 @media screen and (min-width: 1081px) {
@@ -1862,6 +1878,11 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
     display: block;
   }
 }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .adv-desk {
+    margin-top: 10%;
+  }
+}
 @media screen and (min-width: 1081px) {
   .adv-desk {
     margin-top: 12%;
@@ -1897,6 +1918,20 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 
 .s4-info.adv-desk {
   position: relative;
+  color: #fff;
+}
+.s4-info.adv-desk p {
+  width: 100%;
+}
+@media screen and (min-width: 750px) {
+  .s4-info.adv-desk p {
+    width: 92%;
+  }
+}
+@media screen and (min-width: 1081px) {
+  .s4-info.adv-desk p {
+    width: 100%;
+  }
 }
 
 .s4.head-adv {
