@@ -6,7 +6,8 @@
      }
  }
  
- .nav-desk {
+ .nav-desk,
+ .main-nav-desk {
      display: none;
      @media #{$lg} {
          display: block;
@@ -75,7 +76,8 @@
      }
  }
  
- .nav-toggle {
+ .nav-toggle,
+ .nav-toggle-sres {
      font-family: 'rsu_r';
      position: absolute;
      font-size: 30px;
@@ -183,7 +185,7 @@
                  text-decoration: none;
                  &:active,
                  &:hover {
-                     color: #999999;
+                     color: $hover;
                  }
              }
          }
@@ -216,3 +218,42 @@
  }
  
  // End Header //////////////////////////////////
+ // Header Scroll //////////////////////////////////
+ .nav-desk-scroll {
+     position: fixed;
+     width: 100%;
+     background-color: rgba(255, 255, 255, .95);
+     height: 78px;
+     z-index: 10;
+     display: none;
+     img {
+         width: 90px;
+         height: 64px;
+         margin: 6px 30px;
+         @media #{$lg} {
+             margin: 6px 122px;
+         }
+     }
+     nav.main-nav-desk {
+         a {
+             color: #57585A;
+             &:active,
+             &:hover {
+                 color: #9F0208;
+             }
+         }
+         span {
+             color: #9F0208;
+         }
+     }
+ }
+ 
+ .nav-toggle-sres {
+    color: $f_red;
+     top: 20px;
+     @media #{$lg} {
+         top: 30px;
+     }
+ }
+ 
+ //End Header Scroll //////////////////////////////////

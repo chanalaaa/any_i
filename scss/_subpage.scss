@@ -22,7 +22,7 @@
         -webkit-clip-path: ellipse(120% 100% at 50% 0%);
     }
     .redoverlay {
-        background-image: url("../images/content/red_right.png");
+        background-image: url("../images/content/red_left.png");
     }
 }
 
@@ -74,7 +74,8 @@
         }
         &:active,
         &:hover {
-            opacity: .6;
+           // opacity: .6;
+           color:$hover;
         }
     }
     img {
@@ -192,7 +193,7 @@
     @include transition(color ease .1s);
     &:active,
     &:hover {
-        color: #444444;
+        color: $hover;
     }
 }
 
@@ -270,7 +271,7 @@
     .redoverlay {
         display: block;
         clip-path: url(../#clip_path-sub);
-        background-image: url("../images/content/red_right.png");
+        background-image: url("../images/content/red_left.png");
         -webkit-clip-path: ellipse(130% 100% at 50% 0%);
         @media #{$lg} {
             clip-path: url(../#clip_path-sub);
@@ -370,7 +371,8 @@
         }
         &:active,
         &:hover {
-            opacity: .6;
+            //opacity: .6;
+            color:$hover;
         }
     }
     img {

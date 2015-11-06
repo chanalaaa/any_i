@@ -268,7 +268,7 @@
 }
 
 .s2-info {
-    color: #fff;
+    color: #444444;
     text-align: left;
     // padding: 10px 8px 0px;
     padding-right: 15px;
@@ -486,7 +486,8 @@
                 color: #fff;
                 &:hover,
                 &:active {
-                    opacity: .7;
+                    //opacity: .7;
+                    color: $hover;
                 }
             }
         }
@@ -628,7 +629,7 @@
         //padding: 15rem 0 30rem;
         padding: 12rem 0 13rem;
     }
-     @media #{$lgx} {
+    @media #{$lgx} {
         //padding: 15rem 0 30rem;
         padding: 7rem 0 13rem;
     }
@@ -786,10 +787,10 @@
 }
 
 // End HACK ///////////////////////////////
-.redoverlay {
+.redoverlay,
+.whiteoverlay {
     content: '';
     //background-color: rgba(255, 255, 255, .7);
-    background-image: url("../images/content/red_left.png");
     //background-size: cover;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -800,5 +801,14 @@
     left: 0;
     //z-index: 200;
     pointer-events: none;
+}
+
+.redoverlay {
+    background-image: url("../images/content/red_left.png");
     opacity: .5;
+}
+
+.whiteoverlay {
+    background-image: url("../images/content/white.png");
+    opacity: 1;
 }
