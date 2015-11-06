@@ -64,8 +64,15 @@ $(document).ready(function() {
     }
     /*End Detect iOS version  ***********************/
     /* Fix navbar  ***********************/
+    if (winW < 550) {
+        var scn = 680;
+    }if (winW < 1080) {
+        var scn = 1100;
+    } else {
+        var scn = 720;
+    }
     $(window).bind('scroll', function() {
-        if ($(window).scrollTop() > 720) {
+        if ($(window).scrollTop() > scn) {
             //Detect Scroll Stop
             $(".nav-desk-scroll").slideUp(100);
             clearTimeout($.data(this, 'scrollTimer'));
@@ -88,7 +95,7 @@ $(document).ready(function() {
 /* Nav ***********************/
 $(function() {
     var flag = 1;
-    $('.nav-toggle').on('click', function() {
+    $('.toggle').on('click', function() {
         $('.main-nav').toggleClass('open');
         /* disable scrolling *************/
         if (flag < 1) {

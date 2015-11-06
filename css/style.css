@@ -458,12 +458,12 @@ h1 {
 }
 
 .nav-desk,
-.nav-desk-scroll {
+.main-nav-desk {
   display: none;
 }
 @media screen and (min-width: 1081px) {
   .nav-desk,
-  .nav-desk-scroll {
+  .main-nav-desk {
     display: block;
   }
 }
@@ -533,7 +533,8 @@ h1 {
   height: auto;
 }
 
-.nav-toggle {
+.nav-toggle,
+.nav-toggle-sres {
   font-family: 'rsu_r';
   position: absolute;
   font-size: 30px;
@@ -543,16 +544,20 @@ h1 {
   cursor: pointer;
   z-index: 300;
 }
-.nav-toggle:active, .nav-toggle:hover {
+.nav-toggle:active, .nav-toggle:hover,
+.nav-toggle-sres:active,
+.nav-toggle-sres:hover {
   opacity: .5;
 }
 @media screen and (min-width: 550px) {
-  .nav-toggle {
+  .nav-toggle,
+  .nav-toggle-sres {
     font-size: 35px;
   }
 }
 @media screen and (min-width: 750px) {
-  .nav-toggle {
+  .nav-toggle,
+  .nav-toggle-sres {
     right: 45px;
     color: #fff;
   }
@@ -699,13 +704,18 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.95);
   height: 78px;
-  z-index: 9;
+  z-index: 10;
   display: none;
 }
 .nav-desk-scroll img {
   width: 90px;
   height: 64px;
-  margin: 6px 122px;
+  margin: 6px 30px;
+}
+@media screen and (min-width: 1081px) {
+  .nav-desk-scroll img {
+    margin: 6px 122px;
+  }
 }
 .nav-desk-scroll nav.main-nav-desk a {
   color: #57585A;
@@ -715,6 +725,16 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 }
 .nav-desk-scroll nav.main-nav-desk span {
   color: #9F0208;
+}
+
+.nav-toggle-sres {
+  color: #c0392b;
+  top: 20px;
+}
+@media screen and (min-width: 1081px) {
+  .nav-toggle-sres {
+    top: 30px;
+  }
 }
 
 /*  Grid
