@@ -692,6 +692,14 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   }
 }
 
+.nav-desk-scroll {
+  position: fixed;
+  width: 100%;
+  background-color: gray;
+  height: 78px;
+  z-index: 300;
+}
+
 /*  Grid
 ================================================== */
 /* Shared

@@ -52,7 +52,7 @@ $(document).ready(function() {
         });
     }
     /*End Fullpage  ***********************/
-    //Detect iOS version
+    /* Detect iOS version  ***********************/
     var vers = iOSversion();
     if (typeof vers != 'undefined') {
         if (typeof vers[0] != 'undefined') {
@@ -62,9 +62,25 @@ $(document).ready(function() {
             }
         }
     }
+    /*End Detect iOS version  ***********************/
+    /* Fix navbar  ***********************/
+    $(window).bind('scroll', function() {
+        if ($(window).scrollTop() < 400) {
+            //Detect Scroll Stop
 
+            clearTimeout($.data(this, 'scrollTimer'));
+            $.data(this, 'scrollTimer', setTimeout(function() {
+                console.log("hey");
+            }, 300));
+        } else {
+            console.log("ohh");
+            //$('.nav-sec2').css("opacity", "0");
+        }
+    });
+    /*End Fix navbar  ***********************/
 
-}); /*End Onload  ***********************/
+});
+/*End Onload  ********************************************************************/
 
 /* Nav ***********************/
 $(function() {

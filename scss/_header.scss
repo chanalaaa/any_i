@@ -216,3 +216,14 @@
  }
  
  // End Header //////////////////////////////////
+
+ // Header Scroll //////////////////////////////////
+ .nav-desk-scroll{
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+    height: 78px;
+    z-index: 300;
+ }
+
+ //End Header Scroll //////////////////////////////////

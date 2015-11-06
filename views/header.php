@@ -57,3 +57,23 @@
         </div>
     </div>
 </div>
+<!-- Nav Desk scroll ========= -->
+<div class="nav-desk-scroll">
+    <a href="index-th.php">
+        <div class="nav-desk_slogo"> <img src="http://www.placehold.it/100x40"></div>
+    </a>
+    <div class="headerlg-bg">
+        <div class="row">
+            <div class="twelve columns">
+                <nav class="main-nav-desk">
+                    <ul>
+                        <li><a href="index-th.php">Home</a></li>
+                        <li><a href="inaction.php">any i in Action</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
+                        <li><a href="#">TH</a><span> l </span><a href="#">EN</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
