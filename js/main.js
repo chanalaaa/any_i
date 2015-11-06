@@ -65,19 +65,19 @@ $(document).ready(function() {
     /*End Detect iOS version  ***********************/
     /* Fix navbar  ***********************/
     $(window).bind('scroll', function() {
-        if ($(window).scrollTop() > 380) {
+        if ($(window).scrollTop() > 720) {
             //Detect Scroll Stop
-            console.log("hey");
-            clearTimeout($.data(this, 'scrollTimer'));
             $(".nav-desk-scroll").slideUp(100);
+            clearTimeout($.data(this, 'scrollTimer'));
             $.data(this, 'scrollTimer', setTimeout(function() {
-                $(".nav-desk-scroll").slideDown(200);
+                //console.log("hey");
+                $(".nav-desk-scroll").slideDown(260);
                 //$(".nav-desk-scroll").css("display","block");
             }, 450));
         } else {
             $(".nav-desk-scroll").slideUp(100);
             $(".nav-desk-scroll").css("display", "none");
-                console.log("ohh");
+            //console.log("ohh");
         }
     });
     /*End Fix navbar  ***********************/

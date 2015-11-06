@@ -60,7 +60,7 @@
 <!-- Nav Desk scroll ========= -->
 <div class="nav-desk-scroll">
     <a href="index-th.php">
-        <div class="nav-desk_slogo"><img src="http://www.placehold.it/100x40"></div>
+        <div class="nav-desk_slogo"><img src="images/content/anyilogo.png"></div>
     </a>
     <div class="row">
         <div class="twelve columns">

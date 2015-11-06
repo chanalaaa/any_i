@@ -225,6 +225,11 @@
      height: 78px;
      z-index: 9;
      display: none;
+     img {
+         width: 90px;
+         height: 64px;
+         margin: 6px 122px;
+     }
      nav.main-nav-desk {
          a {
              color: #57585A;
@@ -232,6 +237,9 @@
              &:hover {
                  color: #9F0208;
              }
+         }
+         span {
+             color: #9F0208;
          }
      }
  }

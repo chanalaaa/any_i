@@ -702,10 +702,18 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   z-index: 9;
   display: none;
 }
+.nav-desk-scroll img {
+  width: 90px;
+  height: 64px;
+  margin: 6px 122px;
+}
 .nav-desk-scroll nav.main-nav-desk a {
   color: #57585A;
 }
 .nav-desk-scroll nav.main-nav-desk a:active, .nav-desk-scroll nav.main-nav-desk a:hover {
+  color: #9F0208;
+}
+.nav-desk-scroll nav.main-nav-desk span {
   color: #9F0208;
 }
 
@@ -1576,9 +1584,9 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   border-bottom-right-radius: 50% 50px;
 }
 
-.redoverlay {
+.redoverlay,
+.whiteoverlay {
   content: '';
-  background-image: url("../images/content/red_left.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: absolute;
@@ -1587,7 +1595,16 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   top: 0;
   left: 0;
   pointer-events: none;
+}
+
+.redoverlay {
+  background-image: url("../images/content/red_left.png");
   opacity: .5;
+}
+
+.whiteoverlay {
+  background-image: url("../images/content/white.png");
+  opacity: 1;
 }
 
 .s2.headcon {
@@ -1617,7 +1634,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   }
 }
 .s2.headcon .redoverlay {
-  background-image: url("../images/content/red_right.png");
+  background-image: url("../images/content/red_left.png");
 }
 
 .s2.headcon .s2-info {
@@ -1899,7 +1916,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 .s4.head-adv .redoverlay {
   display: block;
   clip-path: url(../#clip_path-sub);
-  background-image: url("../images/content/red_right.png");
+  background-image: url("../images/content/red_left.png");
   -webkit-clip-path: ellipse(130% 100% at 50% 0%);
 }
 @media screen and (min-width: 1081px) {

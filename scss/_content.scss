@@ -787,10 +787,10 @@
 }
 
 // End HACK ///////////////////////////////
-.redoverlay {
+.redoverlay,
+.whiteoverlay {
     content: '';
     //background-color: rgba(255, 255, 255, .7);
-    background-image: url("../images/content/red_left.png");
     //background-size: cover;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -801,5 +801,14 @@
     left: 0;
     //z-index: 200;
     pointer-events: none;
+}
+
+.redoverlay {
+    background-image: url("../images/content/red_left.png");
     opacity: .5;
+}
+
+.whiteoverlay {
+    background-image: url("../images/content/white.png");
+    opacity: 1;
 }
