@@ -32,6 +32,9 @@
     @media #{$md} {
         margin-top: 45%;
     }
+    @media #{$md_l} {
+        margin-top: 0;
+    }
     @media #{$lg} {
         margin-top: 12%;
     }
@@ -74,8 +77,8 @@
         }
         &:active,
         &:hover {
-           // opacity: .6;
-           color:$hover;
+            // opacity: .6;
+            color: $hover;
         }
     }
     img {
@@ -113,8 +116,12 @@
     clip-path: none;
     -webkit-clip-path: none;
     @media #{$md} {
-        padding: 13rem 0 20rem;
+        padding: 0rem 0 20rem;
         margin-top: -60px;
+    }
+    @media #{$md_l} {
+        display: flex;
+        float: left;
     }
     @media #{$lg} {
         //padding: 13rem 0 11rem;
@@ -126,7 +133,10 @@
     .conts-info {
         margin-top: 80%;
         @media #{$md} {
-            margin-top: 70%;
+            margin-top: 60%;
+        }
+        @media #{$md_l} {
+            margin-top: 30%;
         }
         @media #{$lg} {
             margin-top: 15%;
@@ -208,6 +218,9 @@
         margin-top: 30%;
         display: block;
     }
+    @media #{$md_l} {
+        margin-top: 10%;
+    }
     @media #{$lg} {
         margin-top: 12%;
     }
@@ -238,6 +251,16 @@
 
 .s4-info.adv-desk {
     position: relative;
+    color: #fff;
+    p {
+        width: 100%;
+        @media #{$md} {
+            width: 92%;
+        }
+        @media #{$lg} {
+            width: 100%;
+        }
+    }
 }
 
 .s4.head-adv {
@@ -372,7 +395,7 @@
         &:active,
         &:hover {
             //opacity: .6;
-            color:$hover;
+            color: $hover;
         }
     }
     img {
@@ -470,7 +493,6 @@
         clip-path: url(../#clip_path-sub) !important;
         -webkit-clip-path: ellipse(120% 100% at 50% 0%) !important;
     }
-
     /*
      .owl-stage-outer {
         clip-path: url(../#clip_path-sub) !important;
