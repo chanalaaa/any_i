@@ -658,7 +658,7 @@ nav.main-nav-desk ul li a {
   text-decoration: none;
 }
 nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
-  color: #999999;
+  color: #ffcccc;
 }
 
 .gohome {
@@ -916,7 +916,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 }
 
 .s2-info {
-  color: #fff;
+  color: #444444;
   text-align: left;
   padding-right: 15px;
 }
@@ -1199,7 +1199,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
     color: #fff;
   }
   .s4 .s4-info a:hover, .s4 .s4-info a:active {
-    opacity: .7;
+    color: #ffcccc;
   }
 }
 .s4 .s4-tag ul {
@@ -1662,7 +1662,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   }
 }
 .s3.inaction a:active, .s3.inaction a:hover {
-  opacity: .6;
+  color: #ffcccc;
 }
 .s3.inaction img {
   width: 200px;
@@ -1795,7 +1795,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   transition: color 0.1s ease;
 }
 .email:active, .email:hover {
-  color: #444444;
+  color: #ffcccc;
 }
 
 /* Advisor Head */
@@ -2018,7 +2018,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
   }
 }
 .s3.adv a:active, .s3.adv a:hover {
-  opacity: .6;
+  color: #ffcccc;
 }
 .s3.adv img {
   width: 200px;

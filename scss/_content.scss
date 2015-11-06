@@ -268,7 +268,7 @@
 }
 
 .s2-info {
-    color: #fff;
+    color: #444444;
     text-align: left;
     // padding: 10px 8px 0px;
     padding-right: 15px;
@@ -486,7 +486,8 @@
                 color: #fff;
                 &:hover,
                 &:active {
-                    opacity: .7;
+                    //opacity: .7;
+                    color: $hover;
                 }
             }
         }
@@ -628,7 +629,7 @@
         //padding: 15rem 0 30rem;
         padding: 12rem 0 13rem;
     }
-     @media #{$lgx} {
+    @media #{$lgx} {
         //padding: 15rem 0 30rem;
         padding: 7rem 0 13rem;
     }
