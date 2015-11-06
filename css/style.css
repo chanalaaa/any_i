@@ -734,6 +734,7 @@ nav.main-nav-desk ul li a:active, nav.main-nav-desk ul li a:hover {
 @media screen and (min-width: 1081px) {
   .nav-toggle-sres {
     top: 30px;
+    display: none;
   }
 }
 

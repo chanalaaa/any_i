@@ -253,6 +253,7 @@
      top: 20px;
      @media #{$lg} {
          top: 30px;
+         display: none;
      }
  }
  

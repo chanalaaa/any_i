@@ -59,9 +59,9 @@
 </div>
 <!-- Nav Desk scroll ========= -->
 <div class="nav-desk-scroll">
-    <a href="index-th.php">
-        <div class="nav-desk_slogo"><img src="images/content/anyilogo.png"></div>
-    </a>
+    
+        <div class="nav-desk_slogo"><a href="index-th.php"><img src="images/content/anyilogo.png"></a></div>
+    
     <div class="nav-toggle-sres toggle"><i class="fa fa-bars"></i></div>
     <div class="row">
         <div class="twelve columns">
