@@ -51,7 +51,11 @@ video {
     -moz-transform: translateX(-50%) translateY(-50%);
     -moz-transition: 1s opacity;
 }
-
+@media screen and (max-width: 750px) and (orientation : landscape) {
+    .cen_but {
+        top: 66%;
+    }
+}
 .titlebu {
     font-family: 'rsu_b';
     color: #fff;
