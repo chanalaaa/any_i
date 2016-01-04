@@ -1,0 +1,30 @@
+ // Footer //////////////////////////////////
+ .s7 {
+     padding: 5rem 0 4rem;
+     .section-description {
+         font-family: 'rsu_r';
+         font-size: 18px;
+         width: 80%;
+         /* text-align: center; */
+         margin: 0 auto;
+         @media #{$md} {
+             width: 60%;
+         }
+     }
+ }
+ 
+ .footdesk {
+     display: none;
+     @media #{$lg} {
+         display: block;
+     }
+ }
+ 
+ .footres {
+     display: block;
+     @media #{$lg} {
+         display: none;
+     }
+ }
+ 
+ // End Footer //////////////////////////////////
